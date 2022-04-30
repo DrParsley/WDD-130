@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: #A1A6B4;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "font-family: 'Bebas Neue', cursive;";
+  --heading-font: "Bebas Neue";
   --paragraph-font: Lato, "Radio Canada";
 
   /* these colors below should be chosen from among your palette colors above */
