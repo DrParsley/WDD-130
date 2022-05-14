@@ -8,3 +8,38 @@ nav a
 main section {
     text-align: center;
 }
+#background{
+    height: 725px;
+}
+body {
+    background-color: #94C5CC;
+}
+header {
+    background-color: #B4D2E7;
+}
+nav {
+    background-color: #F8F8F8 ;
+}
+a:hover {
+    background-color:#A1A6B4 ;
+}
+.book, .join {
+    background-color:#F8F8F8 ;
+}
+
+.book:hover, .join:hover {
+    background-color:#A1A6B4 ;
+}
+#background {
+    background-color: #F8F8F8;
+}
+.msg {
+    background-color: #F8F8F8;
+}
+footer{
+    background-color: #B4D2E7;
+}
+--primary-color: #94C5CC   ;
+--secondary-color: #B4D2E7 ;
+--accent1-color: #F8F8F8;
+--accent2-color: #A1A6B4;
