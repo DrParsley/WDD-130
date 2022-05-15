@@ -1,15 +1,59 @@
-#content{
+/*ID's*/
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
-nav a
-#hero-msg h1, #hero-msg h4
-.button-box
-main section {
+#background {
+    background-color: #94C5CC;
+    height: 725px;
+}
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
-#background{
-    height: 725px;
+#background {
+    background-color: #F8F8F8;
+}
+#hero-img {
+    width: 100%;
+}
+
+
+
+/*Class*/
+.book, .join {
+    background-color:#F8F8F8 ;
+    color: #d9c2a3;
+}
+.book:hover, .join:hover {
+    background-color: #A1A6B4;
+    color: #d9c2a3;
+}
+.msg {
+    background-color: #F8F8F8;
+}
+.button-box {
+text-align: center;
+}
+.home-title {
+    color: #94C5CC;
+}
+.msg h2 {
+    color: #d9c2a3;
+}
+.msg p {
+    color: #d9c2a3;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+}
+
+
+/*Element*/
+main section {
+    text-align: center;
 }
 body {
     background-color: #94C5CC;
@@ -17,27 +61,28 @@ body {
 header {
     background-color: #B4D2E7;
 }
-nav {
-    background-color: #F8F8F8 ;
+nav a{
+    text-align: center;
+    color: #d9c2a3;
 }
-a:hover {
+nav a:hover {
     background-color:#A1A6B4 ;
-}
-.book, .join {
-    background-color:#F8F8F8 ;
-}
-
-.book:hover, .join:hover {
-    background-color:#A1A6B4 ;
-}
-#background {
-    background-color: #F8F8F8;
-}
-.msg {
-    background-color: #F8F8F8;
+    color: #d9c2a3;
 }
 footer{
     background-color: #B4D2E7;
+}
+footer h3 {
+    color: #d9c2a3;
+}
+footer a {
+    color: #d9c2a3;
+}
+footer a:hover {
+    color: #d9c2a3;
+}
+h4 {
+    color: #d9c2a3;
 }
 --primary-color: #94C5CC   ;
 --secondary-color: #B4D2E7 ;
