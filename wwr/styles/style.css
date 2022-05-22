@@ -32,6 +32,7 @@
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #A1A6B4;
@@ -67,6 +68,9 @@ text-align: center;
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #041f1b;
 }
 
 /*Element*/
@@ -120,6 +124,9 @@ footer h3 a:hover {
 }
 footer .social img {
     padding-top: 15px;
+}
+main section img {
+    box-sizing: border-box;
 }
 --primary-color: #94C5CC   ;
 --secondary-color: #B4D2E7 ;
