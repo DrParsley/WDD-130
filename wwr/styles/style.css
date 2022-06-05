@@ -19,22 +19,28 @@
 }
 #hero {
     display: grid;
-    
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
     margin-top: -100px;
-    outline: 2px dashed blue;
 }
 #hero-img {
     width: 100%;
 }
 #hero-box {
+    grid-column: 1/ span 5;
+    grid-row: 1/ span 2;
+    justify-self: center;
     z-index: -1;
-    outline: 2px dashed green;
 }
 #hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    outline: 50Spx solid yellow;
+    align-self: center;
+    justify-self: center;
+    grid-column: 2/ span 3;
+    grid-row: 1/ span 2;
+    align-self: center;
+    /*background-color: aqua;
+    outline: 50Spx solid yellow;*/
 }
 #hero-msg h4 {
     color: white;
