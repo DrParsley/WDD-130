@@ -19,26 +19,22 @@
 }
 #hero {
     display: grid;
-    width: 100%;
+    
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
     outline: 2px dashed blue;
 }
 #hero-img {
     width: 100%;
-    outline: 5px dashed red;
 }
 #hero-box {
-    grid-column: span;
-    grid-row: 1/2;
     z-index: -1;
     outline: 2px dashed green;
 }
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    outline: 10px solid yellow;
-    z-index: 1;
+    outline: 50Spx solid yellow;
 }
 #hero-msg h4 {
     color: white;
