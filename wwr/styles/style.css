@@ -55,6 +55,10 @@
 
 
 /*Class*/
+.form-layout {
+    justify-items: center;
+    align-items: center;
+}
 .white {
     color: white;
     font-size: 250%;
