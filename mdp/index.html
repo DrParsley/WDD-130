@@ -17,6 +17,20 @@
             <a href="american-british.html#american">American</a>
             <a href="american-british.html#british">British</a>
         </nav>
+        <script>
+            function myFunction(imgs) {
+                // Get the expanded image
+                var expandImg = document.getElementById("expandedImg");
+                // Get the image text
+                var imgText = document.getElementById("imgtext");
+                // Use the same src in the expanded image as the image being clicked on from the grid
+                expandImg.src = imgs.src;
+                // Use the value of the alt attribute of the clickable image as text inside the expanded image
+                imgText.innerHTML = imgs.alt;
+                // Show the container element (hidden with CSS)
+                expandImg.parentElement.style.display = "block";
+            }
+        </script>
     </header>
     <main>
         <div class="welcome">
@@ -31,7 +45,26 @@
             <p id="text">Welcome to the Online tank museum. We have collected a variety of images and information about tanks at local museums in your area. We hope to continue collecting exabits from various locations so that you are able to see what tanks are out there in the world. We have a few tanks from various nations, most being from the Soviet Union, Germany, America, and Brittan. We hope you enjoy your time perusing our site!</p>
             <div class="gallery">
                 <div class="page-title">Tank Gallery</div>
-                <div class="flex-box">
+                
+                <div class="flex-box">   
+                    <div class="reel">
+                        <img src="images/t-34-85-bw.jpg" alt="T-34-85" id="gallery-img" onclick="myFunction(this);">                                
+                        <img src="images/sherman-rear-bw.jpeg" alt="Sherman M4" id="gallery-img" onclick="myFunction(this);">            
+                        <img src="images/t-72a-bw.JPG" alt="T-72a" id="gallery-img" onclick="myFunction(this);">            
+                        <img src="images/centurian-front.jpeg" alt="Centurian" id="gallery-img" onclick="myFunction(this);">                  
+                    </div>
+                      <!-- The expanding image container -->
+                    <div class="container">
+                        <!-- Close the image -->
+                        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                    
+                        <!-- Expanded image -->
+                        <img id="expandedImg" style="width:100%">
+                    
+                        <!-- Image text -->
+                        <div id="imgtext"></div>
+                    </div>
+                    <!--
                     <a href="american-british.html#british"><img src="images/centurian-front-bw.jpeg" alt="Logo" id="gallery-img"></a>
                     <a href="soviet-german.html#soviet"><img src="images/t-34-85-bw.jpg" alt="Logo" id="gallery-img"></a>
                     <a href="american-british.html#american"><img src="images/sherman-rear-bw.jpeg" alt="Logo" id="gallery-img"></a>
@@ -43,6 +76,7 @@
                     <a href="soviet-german.html#soviet"><img src="images/t-72a-wide.JPG" alt="Logo" id="gallery-img"></a>
                     <a href="american-british.html#british"><img src="images/centurian-side.jpeg" alt="Logo" id="gallery-img"></a>
                     <a href="american-british.html#american"><img src="images/sherman-human-wide.jpg" alt="Logo" id="gallery-img"></a>
+                    -->
                 </div>
             </div>
             <p id="text"></p>
