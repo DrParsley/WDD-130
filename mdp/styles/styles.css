@@ -81,7 +81,7 @@ nav a:hover {
 }
 .contents {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 10% 1fr 1fr 10%;
     justify-items: center;
     outline: solid rgb(70, 69, 69);
     background-color: #F5D5A1;
